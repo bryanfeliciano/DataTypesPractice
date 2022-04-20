@@ -86,4 +86,4 @@ showSex Female = "Female"
 patientSumary :: Patient -> String
 patientSumary patient = "************\n" ++
                          "sex" ++ showSex (sex Patient) ++ "\n"
-                        --  in the future ill format this to take in all patient information --
+                        
